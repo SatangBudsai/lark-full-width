@@ -1,16 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Full Width TestId",
-  "version": "1.0",
-  "description": "Set width of #testId to 100% with one click.",
+  "name": "Lark Full Width",
+  "version": "1.0.0",
+  "description": "Set Form Width 100%.",
   "permissions": ["scripting", "activeTab"],
   "action": {
-    "default_popup": "popup.html",
     "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png",
       "128": "icon128.png"
     }
+  },
+  "background": {
+    "service_worker": "background.js"
   },
   "icons": {
     "16": "icon16.png",
